@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let login = prompt('Enter a string: ', '');
+
+    // let message;
+    //
+    // if (login == 'Employee') {
+    //     message = 'Hello';
+    // } else if (login == 'Director') {
+    //     message = 'Greetings';
+    // } else if (login == '') {
+    //     message = 'No login';
+    // } else {
+    //     message = '';
+    // }
+
+    let message = (login == 'Employee') ?
+        'Hello' :
+        (login == 'Director') ?
+            'Greetings' :
+            (login == '') ?
+                'No login' :
+                '';
+    document.write(message);
+
+
+</script>
+</body>
+</html>
